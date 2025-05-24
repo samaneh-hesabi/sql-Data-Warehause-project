@@ -1,1 +1,18 @@
+Use master;
+Use Datawarehaus;
 
+
+DROP SCHEMA IF EXISTS bronze;
+GO
+CREATE SCHEMA bronze;
+GO
+
+DROP SCHEMA IF EXISTS silver;
+GO
+CREATE SCHEMA silver;
+GO
+
+DROP SCHEMA IF EXISTS gold;
+GO
+CREATE SCHEMA gold;
+GO
